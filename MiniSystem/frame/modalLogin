@@ -1,0 +1,33 @@
+</br>
+</br>
+<span id="valueholder">
+</span>
+<table id="modal-table">
+	<tr id="one">
+		<td class="modal-name" id="name-one">
+		USERNAME
+		</td>
+		<td class="modal-value" id="value-one">
+			<input class="modal-value" id="username" type="text" maxlength="20"/>
+		</td>
+	</tr>
+	<br>
+	<tr id="two">
+		<td class="modal-name" id="name-two">
+		PASSWORD
+		</td>
+		<td class="modal-value" id="value-two" >
+			<input class="modal-value" id="password" type="password" maxlength="20"/>
+		</td>
+	</tr>
+	
+	<tr id="nine">
+		<td class="modal-name" id="name-nine">
+		</td>
+		<td class="modal-value" id="value-nine">
+		<button id="submit" onclick="login()">LOGIN</button>
+		</td>
+	</tr>
+</table>
+</br>
+</br>

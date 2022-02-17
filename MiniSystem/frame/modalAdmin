@@ -1,0 +1,13 @@
+</br>
+</br>
+<span>
+	ADMIN CONTROL
+</span>
+</br>
+<div style="width:80%">
+	<button class="adminmenu" onmouseover="adminMouseIn(this)" onmouseout="adminMouseOut(this)" onclick="addUserModal()">USER</button>
+	<hr style="height:1px">
+	<button id="close" onclick="closeModal()">CLOSE</button>
+</div>
+</br>
+</br>

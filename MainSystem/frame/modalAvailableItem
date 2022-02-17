@@ -1,0 +1,39 @@
+</br>
+</br>
+<span id="valueholder">
+</span>
+<table id="modal-table">
+	<tr id="one">
+		<td class="modal-name" id="name-one">
+		ITEM
+		</td>
+		<td class="modal-value" id="value-one">
+		</td>
+	</tr>
+	<br>
+	<tr id="two">
+		<td class="modal-name" id="name-two">
+			QUANTITY
+		</td>
+		<td class="modal-value" id="value-two" >
+		</td>
+	</tr>
+	<tr id="three">
+		<td class="modal-name" id="name-three">
+			SELL
+		</td>
+		<td class="modal-value" id="value-three">
+			<input class="modal-value" type="text" id="count" onkeyup="numericOnly(this)" maxlength="4"/>
+		</td>
+	</tr>
+	<tr id="nine">
+		<td class="modal-name" id="name-nine">
+		</td>
+		<td class="modal-value" id="value-nine">
+		<button id="submit" onclick="sellItem()">SELL</button>
+		<button id="close" onclick="closeModal()">CLOSE</button>
+		</td>
+	</tr>
+</table>
+</br>
+</br>

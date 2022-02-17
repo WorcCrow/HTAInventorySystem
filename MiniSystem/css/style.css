@@ -1,0 +1,379 @@
+body {
+	margin:0px;
+	background-image:url("../media/background.jpg");
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+#frame {
+	margin:10px;
+	width:1200px;
+	height:1000px;
+}
+
+#heading {
+	width:1200px;
+	height:100px;
+	display:block;
+}
+
+#main {
+	width:900px;
+	float:left;
+	display:inline;
+}
+
+#grid {
+	background-image:url("../media/grid.png");
+	background-repeat:repeat-y;
+	border-style:solid;
+	border-width:1px;
+	width:900px;
+	display:block;
+	overflow:auto;
+}
+
+#control {
+	background-color:transparent;
+	width:900px;
+	height:50px;
+	display:block;
+	align-content: left;
+}
+
+
+#sidepanel {
+	width:300px;
+	float:left;
+	display:inline;
+}
+
+#menu {
+	width:300px;
+	display:block;
+}
+
+#notif {
+	background-color:white;
+	background-size: 100px;
+	width:300px;
+	height:50%;
+	display:block;
+}
+
+input {
+	width:250px;
+	height:40px;
+	font-size:20px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+button {
+	display:block;
+}
+
+#End ----------------------------------of main structure---------------------------------------------------- {};
+#notiftitle {
+	width:300px;
+	height:30px;
+}
+	
+#notifcontent {
+	width:300px;
+	height:600px;
+	overflow:auto;
+}
+
+#modal {
+	z-index:1;
+	position:absolute;
+    width:100%;
+    height:100%;
+    left:0px;
+    top:0px;
+	display:none;
+}
+#modal-back {
+	position: absolute;
+	width:100%;
+	height:100%;
+	background-color:black;
+	filter: alpha(opacity=50);
+}
+
+#modal-frame {
+	position: absolute;
+	width:100%;
+	height:100%;
+}
+
+#modal-content {
+    margin: 20%;
+	border:1px;
+	border-style:solid;
+	background-color:white;
+	width:500px;
+	border: 1px solid;
+	display:block;
+}
+
+.topmenubutton {
+	width:20%;
+	height:100%;
+	font-size:15px;
+	display:inline;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+.menubutton {
+	width:100%;
+	height:100px;
+	font-size:20px;
+	display:inline;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+#blankspace{
+	background-color:transparent;
+}
+
+th {
+	background-color:gray;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+}
+
+td {
+	text-align:center;
+	border-style:solid;
+	border-width:1px;
+	border-color:white white black white;
+}
+
+.modal-name {
+	width:150px;
+	border-color:white;
+	text-align:left;
+}
+
+.modal-value {
+	width:200px;
+	border-color:white;
+	text-align:left;
+}
+
+#submit {
+	width:100%;
+	height:40px;
+	border:none;
+	font-weight:bold;
+	background-color:yellow;
+}
+
+#close {
+	width:100%;
+	height:40px;
+	border:none;
+	font-weight:bold;
+	background-color:red;
+}
+
+#delete {
+	width:100%;
+	height:40px;
+	border:none;
+	font-weight:bold;
+	background-color:maroon;
+}
+
+.controlbutton {
+	height:100%;
+	width:25%;
+	display:inline;
+	align-content: center;
+}
+
+.notifhead {
+	background-color:white;
+	border-width:0px;
+}
+
+
+#notiftable {
+	border-collapse: collapse;
+}
+
+.notifcontent {
+	background-color:red;
+	color:white;
+	font-size:15px;
+	border:solid 1px;
+	border-color: white red red red;
+}
+
+.notifrow {
+	border:solid 1px;
+	border-color: white red red red;
+}
+
+.dropdownBody {
+	position:absolute;
+	display: none;
+	border:solid 1px;
+	border-color: white white black white;
+}
+
+#dropdown {
+	position:absolute;
+	left:10px;
+	width:300px;
+	height:400px;
+	overflow:auto
+}
+
+.dropdowncontent {
+	cursor:pointer;
+	text-align:center;
+	display:block;
+	width:100%;
+	height:1%;
+	background-color:orange;
+	border:solid 1px;
+	border-color: white white black white;
+}
+
+#banner {
+	width:1100px;
+}
+
+#topbar-section1{
+	height:50px;
+	width:750px;
+	background-color:transparent;
+	display:inline;
+}
+
+#topbar-section2 {
+	height:50px;
+	width:150px;
+	background-color:transparent;
+	display:inline;
+}
+
+#branchname {
+	height:25px;
+	width:100%;
+	color:black;
+	font-weight:bold;
+	border:solid transparent 1px;
+	background-color:orange;
+	display:block;
+}
+
+#loggedname {
+	height:25px;
+	width:100%;
+	color:black;
+	background-color:orange;
+	border:solid transparent 1px;
+	display:block;
+}
+
+#currentTime {
+	height:25px;
+	width:100%;
+	color:white;
+	background-color:blue;
+	display:block;
+}
+
+#totalSales {
+	height:25px;
+	width:100%;
+	color:white;
+	background-color:blue;
+	border:1px white solid;
+	border-style:solid none none none;
+	display:block;
+}
+
+#currentPage {
+	height:25px;
+	width:150px;
+	color:white;
+	font-size:20px;
+	background-color:pink;
+	display:inline;
+}
+
+#topbar {
+	height:50px;
+	color:white;
+	background-color:blue;
+	display:block;
+}
+
+.dropdownButton {
+	border:solid 3px;
+	border-color: white white orange white;
+	text-align:center;
+}
+
+.disable {
+	display:none;
+}
+
+.pointer {
+	cursor:pointer;
+}
+
+#selectedDate{
+	background-color:orange;
+	border: solid;
+	display:block;
+	border-width: 1px 1px 2px 1px;
+	border-color: white white red white;
+	width:100%
+}
+
+#reporttable {
+	font-size:12px;
+}
+
+* {
+	background-color:none;
+}
+
+.adminmenu {
+	height:80px;
+	width:100%;
+	border:none;
+	font-weight:bold;
+	border:2px #254117 solid;
+	background-color:#89C35C;
+}
+
+.selection {
+	background-color:orange;
+	text-align:center;
+	border: solid;
+	display:block;
+	border-width: 1px 1px 2px 1px;
+	border-color: white white red white;
+	width:100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

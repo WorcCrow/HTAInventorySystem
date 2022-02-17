@@ -1,0 +1,45 @@
+</br>
+</br>
+<table id="modal-table">
+	<tr id="one">
+		<td class="modal-name" id="name-one">
+			ITEM
+		</td>
+		<td class="modal-value" id="value-one">
+		<input class="modal-value" type="text" id="item" onkeyup="alphanumericOnly(this)" maxlength="20"/>
+		</td>
+	</tr>
+	<br>
+	<tr id="two">
+		<td class="modal-name" id="name-two">
+			QUANTITY
+		</td>
+		<td class="modal-value" id="value-two">
+		<input class="modal-value" type="text" id="count" onkeyup="numericOnly(this)" maxlength="4"/>
+		</td>
+	</tr>
+	<tr id="three">
+		<td class="modal-name" id="name-three">
+			UNIT
+		</td>
+		<td class="modal-value" id="value-three">
+			<span class="modal-value dropdownButton" id="unit" onclick="dropdownShow('unitlist',this)">pcs</span>
+		</td>
+	</tr>
+	<tr id="four">
+		<td class="modal-name" id="name-four">
+		</td>
+		<td class="modal-value" id="value-four">
+		</td>
+	</tr>
+	<tr id="five">
+		<td class="modal-name" id="name-five">
+		</td>
+		<td class="modal-value" id="value-five">
+			<button id="submit" onclick="addItem()">ADD ITEM</button>
+			<button id="close" onclick="closeModal()">CLOSE</button>
+		</td>
+	</tr>
+</table>
+</br>
+</br>

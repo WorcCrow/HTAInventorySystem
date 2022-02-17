@@ -1,0 +1,73 @@
+<HTA:APPLICATION 
+border="none" 
+caption="no" 
+showInTaskbar="yes" 
+navigable="yes"
+contextmenu="no"
+innerborder="no"
+singleInstance="yes"
+icon="media/icon.ico"
+applicationName="MiniSystem"
+scroll="no"/>
+<!------------------------------------------------------------------------------------------------------>
+
+<html>
+	<script type="text/javascript">
+		resizeTo (screen.width, screen.height);
+		moveTo(0, 0);
+	</script>
+	<head>
+		<title>Tarlac Inventory System</title>
+		<link id="styles" rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/sqlite-function.js"></script>
+		<script src="js/function.js"></script>
+		<style id="customstyle" disabled>
+			.admin {
+				display:inline;
+			}
+		</style>
+	</head>
+<!------------------------------------------------------------------------------------------------------>
+	<body onload="onload()" onkeyup="keyPress(event)" >
+		<div id="modal">
+			<div id="modal-back" align=center>
+			</div>
+			<div id="modal-frame" align=center>
+				<div id="modal-content">
+				</div>
+			</div>
+		</div>
+		<div id="mainframe" align=center style="display:none">
+			<div id="frame">
+				<div id="heading">
+					<img id="banner" src="media/banner.jpg">
+					<div class="pointer" onclick="logOut()" style="display:inline;">
+							<img height="90px" width="90px" src="media/logout.png"></img>
+					</div>
+				</div>
+				<div id="sidepanel">
+					<div id="menu">
+						<span id="branchname"></span>
+						<span id="loggedname"></span>
+						<button class="pointer" id="selectedDate" onclick="dropdownShow('dateL',this)" disabled>Initializing...</button>
+						<span id="dateList" align="left"></span>
+						<button class="menubutton pointer" id="salesreport" onclick="report()">Report</button>
+						<button class="menubutton pointer" id="delivereditem" onclick="deliveredItem()">Delivered Item</button>
+						<button class="menubutton pointer" id="pricelist" onclick="priceList()">Price List</button>
+						<button class="menubutton pointer" id="availableitem" onclick="availableItem()">Sell</button>
+						<button class="menubutton disable admin" id="admincontol" onclick="admincontrol()">ADMIN</button>
+						<div id="currentTime">
+						</div>
+						<div id="totalSales">
+							Initializing...
+						</div>
+					</div>
+				</div>
+				<div id="main">
+					<div id="grid" align="left">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,74 @@
+</br>
+</br>
+<span id="valueholder">
+</span>
+<table id="modal-table">
+	<tr id="one">
+		<td class="modal-name" id="name-one">
+			ITEM
+		</td>
+		<td class="modal-value" id="value-one">
+		</td>
+	</tr>
+	<br>
+	<tr id="two">
+		<td class="modal-name" id="name-two">
+			QUANTITY
+		</td>
+		<td class="modal-value dropdownButton" id="value-two" onclick="dropdownShow('drop',this);borrowShow()">
+		</td>
+	</tr>
+	<tr id="three">
+		<td class="modal-name" id="name-three">
+		</td>
+		<td class="modal-value" id="value-three">
+		</td>
+	</tr>
+	<tr id="four">
+		<td class="modal-name" id="name-four">
+			STATE
+		</td>
+		<td class="modal-value" id="value-four">
+		</td>
+	</tr>
+	<tr id="five">
+		<td class="modal-name" id="name-five">
+			OPERATOR
+		</td>
+		<td class="modal-value" id="value-five">
+		</td>
+	</tr>
+	<tr id="six">
+		<td class="modal-name" id="name-six">
+			DATE
+		</td>
+		<td class="modal-value" id="value-six">
+		</td>
+	</tr>
+	<tr id="seven">
+		<td class="modal-name" id="name-seven">
+			TIME
+		</td>
+		<td class="modal-value" id="value-seven">
+		</td>
+	</tr>
+	<tr id="eight" style="display:none">
+		<td class="modal-name" id="name-eight">
+			BORROWER
+		</td>
+		<td class="modal-value" id="value-eight">
+			<input class="modal-value" id="borrower" type="text" onfocus="enableSubmit()" onkeyup="alphanumericOnly(this)" maxlength="20"/>
+		</td>
+	</tr>
+	<tr id="nine">
+		<td class="modal-name" id="name-nine">
+		</td>
+		<td class="modal-value" id="value-nine">
+		<button id="submit" onclick="useButton()" disabled>BORROW</button>
+		<button class="disable admin" id="delete" onclick="delItem()">DELETE</button>
+		<button id="close" onclick="closeModal()">CLOSE</button>
+		</td>
+	</tr>
+</table>
+</br>
+</br>

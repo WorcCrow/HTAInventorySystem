@@ -1,0 +1,33 @@
+</br>
+</br>
+<input type="radio" name="user" style="height:20px;width:20px;display:inline" onclick="currentUnit()">Current
+<input type="radio" name="user" style="height:20px;width:20px;display:inline" checked onclick="newUnit()">New
+<table id="modal-table">
+	<tr id="one">
+		<td class="modal-name" id="name-one">
+			UNIT
+		</td>
+		<td class="modal-value" id="value-one" >
+			<span id="currentUnit" class="pointer selection" style="display:none" align="center" onclick="dropdownShow('unit',this)">Select Unit</span>
+			<input id="newUnit" type="text" style="width:100%;display:block" onkeyup="alphanumericOnly(this)" maxlength="20">
+			<span id="listunit"></span>
+		</td>
+	</tr>
+	<tr id="two">
+		<td class="modal-name" id="name-two">
+		</td>
+		<td class="modal-value" id="value-two">
+		</td>
+	</tr>
+	<tr id="three">
+		<td class="modal-name" id="name-three">
+		</td>
+		<td class="modal-value" id="value-three">
+		<button id="submit" onclick="addUnit()">ADD</button>
+		<button id="delete" onclick="delUnit()" style="display:none">DELETE</button>
+		<button id="close" onclick="admincontrol()">BACK</button>
+		</td>
+	</tr>
+</table>
+</br>
+</br>

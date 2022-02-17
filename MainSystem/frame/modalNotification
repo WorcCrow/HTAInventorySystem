@@ -1,0 +1,72 @@
+</br>
+</br>
+<span id="valueholder">
+</span>
+<table id="modal-table">
+	<tr id="one">
+		<td class="modal-name" id="name-one">
+		ITEM
+		</td>
+		<td class="modal-value" id="value-one">
+		</td>
+	</tr>
+	<br>
+	<tr id="two">
+		<td class="modal-name" id="name-two">
+		QUANTITY
+		</td>
+		<td class="modal-value" id="value-two" >
+		</td>
+	</tr>
+	<tr id="three">
+		<td class="modal-name" id="name-three">
+		STATE
+		</td>
+		<td class="modal-value" id="value-three">
+		</td>
+	</tr>
+	<tr id="four">
+		<td class="modal-name" id="name-four">
+		OPERATOR
+		</td>
+		<td class="modal-value" id="value-four">
+		</td>
+	</tr>
+	<tr id="five">
+		<td class="modal-name" id="name-five">
+		BORROWER
+		</td>
+		<td class="modal-value" id="value-five">
+		</td>
+	</tr>
+	<tr id="six">
+		<td class="modal-name" id="name-six">
+		TIME
+		</td>
+		<td class="modal-value" id="value-six">
+		</td>
+	</tr>
+	<tr id="seven">
+		<td class="modal-name" id="name-seven">
+		DATE
+		</td>
+		<td class="modal-value" id="value-seven">
+		</td>
+	</tr>
+	<tr id="eight">
+		<td class="modal-name" id="name-eight">
+		</td>
+		<td class="modal-value" id="value-eight">
+		</td>
+	</tr>
+	<tr id="nine">
+		<td class="modal-name" id="name-nine">
+		</td>
+		<td class="modal-value" id="value-nine">
+		<button id="submit" onclick="notifReturn()">RETURN</button>
+		<button id="close" onclick="closeModal()">CLOSE</button>
+		</td>
+	</tr>
+</table>
+</br>
+</br>

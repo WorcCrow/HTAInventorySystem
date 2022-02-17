@@ -1,0 +1,38 @@
+</br>
+</br>
+<span id="valueholder">
+</span>
+<table id="modal-table">
+	<tr id="one">
+		<td class="modal-name" id="name-one">
+			ITEM
+		</td>
+		<td class="modal-value" id="value-one">
+		</td>
+	</tr>
+	<br>
+	<tr id="two">
+		<td class="modal-name" id="name-two">
+			QUANTITY
+		</td>
+		<td class="modal-value dropdownButton" id="value-two" onclick="dropdownShow('drop',this),enableSubmit()" >
+		</td>
+	</tr>
+	<tr id="three">
+		<td class="modal-name" id="name-three">
+		</td>
+		<td class="modal-value" id="value-three">
+		</td>
+	</tr>
+	<tr id="four">
+		<td class="modal-name" id="name-four">
+		</td>
+		<td class="modal-value" id="value-four">
+			<button id="submit" onclick="useButton()" disabled>USE</button>
+			<button class="disable admin" id="delete" onclick="delItem()">DELETE</button>
+			<button id="close" onclick="closeModal()">CLOSE</button>
+		</td>
+	</tr>
+</table>
+</br>
+</br>

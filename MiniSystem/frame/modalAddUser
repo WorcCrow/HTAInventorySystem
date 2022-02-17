@@ -1,0 +1,51 @@
+</br>
+</br>
+<input type="radio" name="user" style="height:20px;width:20px;display:inline" onclick="currentUser()">Current
+<input type="radio" name="user" style="height:20px;width:20px;display:inline" checked onclick="newUser()">New
+<table id="modal-table">
+	<tr id="one">
+		<td class="modal-name" id="name-one">
+			USERNAME
+		</td>
+		<td class="modal-value" id="value-one" >
+			<span id="currentUser" class="pointer selection" style="display:none" align="center" onclick="dropdownShow('username',this)">Select User</span>
+			<input id="newUser" type="text" style="width:100%;display:block" onkeyup="alphanumericOnly(this)" maxlength="20">
+			<span id="listuser"></span>
+		</td>
+	</tr>
+	<br>
+	<tr id="two">
+		<td class="modal-name" id="name-two">
+		</td>
+		<td class="modal-value" id="value-two">
+		</td>
+	</tr>
+	<tr id="three">
+		<td class="modal-name" id="name-three">
+			PASSWORD
+		</td>
+		<td class="modal-value" id="value-three">
+			<input type="password" id="password" style="width:100%" onkeyup="alphanumericOnly(this)" maxlength="20">
+		</td>
+	</tr>
+	<tr id="four">
+		<td class="modal-name" id="name-four">
+			POSITION
+		</td>
+		<td class="modal-value" id="value-four">
+			<input type="radio" name="pstn" style="height:20px;width:20px;display:inline"  onclick="eval(position = 1)">Admin
+			<input type="radio" name="pstn" style="height:20px;width:20px;display:inline" checked onclick="eval(position = 2)">Operator
+		</td>
+	</tr>
+	<tr id="five">
+		<td class="modal-name" id="name-five">
+		</td>
+		<td class="modal-value" id="value-five">
+		<button id="submit" onclick="addUser()">ADD</button>
+		<button id="delete" onclick="delUser()" style="display:none">DELETE</button>
+		<button id="close" onclick="admincontrol()">BACK</button>
+		</td>
+	</tr>
+</table>
+</br>
+</br>
